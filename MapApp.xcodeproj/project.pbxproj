@@ -19,6 +19,7 @@
 		9A6B1E082CD40D5F00E454F1 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1E072CD40D5F00E454F1 /* LocationPreviewView.swift */; };
 		9A6B1E0A2CD4200D00E454F1 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1E092CD4200D00E454F1 /* LocationMapAnnotationView.swift */; };
 		9A6B1E0C2CD42AB000E454F1 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1E0B2CD42AB000E454F1 /* LocationDetailsView.swift */; };
+		9A6B1E0F2CD444F800E454F1 /* logo-launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A6B1E0E2CD444F800E454F1 /* logo-launch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		9A6B1E072CD40D5F00E454F1 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		9A6B1E092CD4200D00E454F1 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		9A6B1E0B2CD42AB000E454F1 /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
+		9A6B1E0D2CD440D500E454F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9A6B1E0E2CD444F800E454F1 /* logo-launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-launch.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,7 @@
 		9A6B1DE82CD3DF1F00E454F1 /* MapApp */ = {
 			isa = PBXGroup;
 			children = (
+				9A6B1E0D2CD440D500E454F1 /* Info.plist */,
 				9A6B1DE92CD3DF1F00E454F1 /* MapAppApp.swift */,
 				9A6B1DEB2CD3DF1F00E454F1 /* ContentView.swift */,
 				9A6B1DFE2CD3E14F00E454F1 /* DataServices */,
@@ -74,6 +78,7 @@
 				9A6B1DFB2CD3E02800E454F1 /* ViewModels */,
 				9A6B1DF92CD3E01D00E454F1 /* Models */,
 				9A6B1DF72CD3DFB300E454F1 /* Assets.xcassets */,
+				9A6B1E0E2CD444F800E454F1 /* logo-launch.png */,
 				9A6B1DEF2CD3DF2000E454F1 /* Preview Content */,
 			);
 			path = MapApp;
@@ -183,6 +188,7 @@
 			files = (
 				9A6B1DF82CD3DFB300E454F1 /* Assets.xcassets in Resources */,
 				9A6B1DF12CD3DF2000E454F1 /* Preview Assets.xcassets in Resources */,
+				9A6B1E0F2CD444F800E454F1 /* logo-launch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,11 +345,14 @@
 				DEVELOPMENT_TEAM = C3JZ4Z7K6K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "World Locations";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "logo-launch";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -368,11 +377,14 @@
 				DEVELOPMENT_TEAM = C3JZ4Z7K6K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "World Locations";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "logo-launch";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
